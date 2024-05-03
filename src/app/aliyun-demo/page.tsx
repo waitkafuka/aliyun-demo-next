@@ -4,6 +4,7 @@ import { useEffect } from "react"
 export default function Home() {
 
     useEffect(() => {
+        debugger
         var player = new window.Aliplayer(
             {
                 id: "J_prismPlayer",
